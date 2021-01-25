@@ -1,0 +1,33 @@
+三、数据类型及其性质变化
+
+    c++ 没有指数运算符
+    double pow(double , double);
+    所以请避免在长运算中 pow 或 %
+
+    数据类型转换
+    static_cast<DataType>(value)
+    (double)books;      C风格
+    double(books)       功能性表示法
+
+    overflow  underflow(小数位)
+
+    const INTEREST_RATE 全大写表示常量
+
+
+    Formatting（格式化）
+    {
+        setw()只和最近的一个流对象建立宽度
+        持续有效
+            setprecision() fixed left right
+        
+        Siginificant Digit 有效数
+        Precision          精度
+        setprecision() 本身是保留有效数字的，大于设定位数就科学计数法了
+        默认显示一般是六位有效数字 (showpoint为例)
+        
+        showpoint<<x<<endl;
+        打印浮点数的小数点和小数位数
+    }
+    
+    cin>> 会传递并忽略前导 白色空格(Whitespace)
+    解决办法是使用getline(cin , inputLine);

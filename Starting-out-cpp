@@ -30,4 +30,44 @@
     }
     
     cin>> 会传递并忽略前导 白色空格(Whitespace)
+    
     解决办法是使用getline(cin , inputLine);
+    
+    cin>>会在遇到换行时停止，而不是吃掉'\n'
+    所以如果在后面加上个getchar()或cin.get()
+    他就会直接吃掉那个'\n'
+    提出  cin.ignore( int , char );
+
+    字符串格式函数
+        .length()
+        .assign( int , char ) //用 int 个 char 填上这个字符串；
+        
+    C字符串：
+    {
+        char word[10] = "hello";
+      赋值：strcpy( Cstring , value );  value(string)
+      
+    C字符串如果cin超过长度了，会导致缓冲区溢出 : Buffer Overrun
+      char word[5];
+      cin>>setw(5)>>word;
+    或cin.width(5); cin>>word;       //cin.width() 与 setw一样 ，只和最近的一个对象建立关系
+                                     //为 '\0' 字符留空间，所以width(5)只读入四个
+                                     //空格会让他停止输入
+   
+    c字符串读入应该cin.getline( word , int ）;
+        应注意 int 应比数组大小小一个 ；
+    }
+        
+    int abs( num ); 绝对值
+    
+    随机数
+    
+    
+
+
+
+
+
+
+
+

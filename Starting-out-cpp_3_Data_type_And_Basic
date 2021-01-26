@@ -61,6 +61,19 @@
     int abs( num ); 绝对值
     
     随机数
+    #include <cstdlib>
+        
+    int main()
+    {
+        unsigned seed;
+        
+        seed = time(0);
+        srand(seed);
+        
+        int dice = rand() % 6 + 1;
+        cout<<dice;
+    }
+    道理是，取余加上差量，可以控制随机量的范围。
     
     
 

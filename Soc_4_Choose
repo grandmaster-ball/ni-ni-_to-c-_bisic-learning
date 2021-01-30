@@ -1,0 +1,4 @@
+    如果true的条件在判断中等价为非0
+    
+    Short-Circuit Evaluation (短路评估) 
+        用于在判断中节约cpu

@@ -1,0 +1,18 @@
+    Iteration 迭代
+    
+    while() 为 Pretest 循环
+    
+    Increment 递增 Decrement 递减
+    
+    Postfix mode 后缀模式
+    Prefix mode  前缀模式
+    
+    toupper() 小写返回他的大写后的ascii码
+        while ( again == 'Y' || again == 'y' )
+        while ( toupper (again) == 'Y' )            //简单明了
+        
+    for ( Loop Header ; Test Expression ; Update Expression )
+                           T  R  U  E
+                            Pre-test
+    
+        

@@ -2,3 +2,30 @@
     
     Short-Circuit Evaluation (短路评估) 
         用于在判断中节约cpu
+    
+    Garbage In, Garbage Out.  -> Input Validation 输入验证
+    
+    Local Scope    Block Scope   作用域
+    come into scope  // leave scope
+    
+    0~9 48~57
+    A~Z 65~90
+    a~z 97~122
+    ' ' 32
+    '.' 46
+    
+    字符串比较，对位，然后有一位不一样就完成大小比较
+    
+    is- 字符判断函数，判断量是否为需要的字符 ，是的话true 否的话false
+    isalpha()       //字母表字母
+    isalnum()       //字母或数字
+    isdigit()       //数字
+    islower()       //小写字母
+    isupper()       //大写字母
+    isprint()       //可打印字符(包括空格)
+    ispunct()       //除数字 字母 空格 外的可打印字符
+    isspace()       //白色空格
+    
+    
+
+    
